@@ -1,0 +1,115 @@
+/* Styles for the navbar */
+.navbar-size {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.user-image-size {
+  height: 56px;
+  margin: 4px 0;
+}
+
+.store-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #ffeb3b;
+}
+
+.bg-image {
+  background-image: url("images/background.jpg");
+  background-color: #cccccc;
+}
+
+/* Styles for the main body */
+.main-body {
+  background-color: #1e272e;
+  /* Replace with the actual path to your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+  height: calc(100vh - 64px);
+  padding-top: 20px;
+}
+
+.materialboxed-image {
+  margin: 0 auto;
+  height: 320px;
+}
+
+.click-me-button {
+  background-color: #ff6f61;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.modal-content {
+  background-color: #2f3640;
+  color: white;
+}
+
+.nav-text {
+  margin-left: 75px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+  color: white;
+}
+
+input::placeholder {
+  color: #b2bec3;
+}
+
+textarea::placeholder {
+  color: #b2bec3;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-bottom: 1px solid #ffeb3b;
+  box-shadow: 0 1px 0 0 #ffeb3b;
+}
+
+input[type="text"] + label,
+input[type="password"] + label,
+input[type="email"] + label,
+textarea + label {
+  color: #ffeb3b;
+}
+
+input[type="text"]:focus + label,
+input[type="password"]:focus + label,
+input[type="email"]:focus + label,
+textarea:focus + label {
+  color: #ffeb3b;
+}
+
+.btn {
+  background-color: #ff6f61;
+}
+
+.btn:hover {
+  background-color: #ff7f71;
+}
+
+/* Styles for the footer */
+.page-footer {
+  background-color: #2f3640;
+}
+
+.footer-copyright {
+  background-color: #1e272e;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .hide-on-med-and-down {
+    display: none;
+  }
+}
